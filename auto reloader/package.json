@@ -1,0 +1,23 @@
+{
+  "name": "hello-saas",
+  "version": "0.0.1",
+  "author": {
+    "name": "Wuzhong",
+    "email": "wuzhong.zhu@qlik.com"
+  },
+  "keywords": [
+    "qlik",
+    "nebula"
+  ],
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "dependencies": {
+    "@nebula.js/sn-bar-chart": "^0.2.2",
+    "@nebula.js/stardust": "1.1.0",
+    "enigma.js": "^2.6.3",
+    "node-fetch": "^2.6.1",
+    "parcel-bundler": "^1.12.4",
+    "ws": "^7.4.4"
+  }
+}
